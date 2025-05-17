@@ -7,7 +7,7 @@
 
 :root{
     --body-color: #efefef;
-    --nav-color: #1876f2;
+    --nav-color: #011fc7; /*#1876f2*/ 
     --bg-color: #fff;
 }
 .dark-theme{
@@ -33,10 +33,8 @@ nav{
     top: 0;
     z-index: 100;
 }
-.logo{
-  width: 160px;
-  margin-right: 45px;
-
+.header-text {
+    color: black;
 }
 .nav-left,  .nav-right{
   display: flex;
@@ -231,12 +229,13 @@ nav{
 }
 .story img{
   position: absolute;
-  width: 45px;
+  width: 40px;
+  /* height: 60%; */
   border-radius: 50%;
   top: 10px;
   left: 10px;
   border: 5px solid #1876f2;
-}
+} 
 .story p{
     position: absolute;
     bottom: 10px;
@@ -249,16 +248,16 @@ nav{
     background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-1.png);
 }
 .story2{
-  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-2.png);
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/feed-image-1.jpg);
 }
 .story3{
-  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-3.png);
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/member-1.jpg);
 }
 .story4{
-  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-4.png);
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/feed-image-3.jpg);
 }
 .story5{
-  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-5.png);
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/feed-7.jpg);
 }
 .story.story1 img{
     top: unset;
